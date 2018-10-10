@@ -1,0 +1,6 @@
+lista = input("Informe os 3 valores separados por espaço: ").split(' ')
+crescente = sorted(lista)
+descrescente = sorted(lista, reverse=True)
+print(*crescente, sep='\n')
+print('\n')
+print(*descrescente, sep='\n')
